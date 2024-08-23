@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Prediction Result</title>
+    <!-- Custom CSS -->
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            font-family: 'Open Sans', sans-serif;
+            background: #092756;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            letter-spacing: 1.2px;
+            background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),
+                        -moz-linear-gradient(top,  rgba(225, 0, 170, 0.25) 0%, rgba(67, 1, 94, 0.4) 100%),
+                        -moz-linear-gradient(-45deg,  #00aaff 0%, #092756 100%);
+            background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),
+                        -webkit-linear-gradient(top,  rgba(225, 0 ,170, 0.25) 0%,rgba(67,1,94,0.4) 100%),
+                        -webkit-linear-gradient(-45deg,  #00aaff 0%,#092756 100%);
+            background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),
+                        -o-linear-gradient(top,  rgba(225,0,170,0.25) 0%,rgba(67,1,94,0.4) 100%),
+                        -o-linear-gradient(-45deg,  #af03bf 0%,#0062ff 100%);
+            background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),
+                        -ms-linear-gradient(top,  rgba(225,0,170,0.25) 0%,rgba(67,1,94,0.4) 100%),
+                        -ms-linear-gradient(-45deg,  #af03bf 0%,#0062ff 100%);
+            background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),
+                        linear-gradient(to bottom,  rgba(225,0,170,0.25) 0%,rgba(67,1,94,0.4) 100%),
+                        linear-gradient(135deg,  #af03bf 0%,#0062ff 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 48px;
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(0,0,0,0.3);
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 22px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        strong {
+            color: white;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4a77d4;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        a:hover {
+            color: white;
+            background-color: #af03bf;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>The news article is classified as: <strong>{{ result }}</strong></p>
+    <a href="/">Try again</a>
+</body>
+</html>

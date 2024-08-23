@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #092756;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%, rgba(138,114,76,0) 40%), 
+                -moz-linear-gradient(top, rgba(255, 0, 170, 0.25) 0%, rgba(67, 1, 94, 0.4) 100%), 
+                -moz-linear-gradient(-45deg, #00aaff 0%, #092756 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%, rgba(138,114,76,0) 40%), 
+                -webkit-linear-gradient(top, rgba(225, 0 ,170, 0.25) 0%, rgba(67,1,94,0.4) 100%), 
+                -webkit-linear-gradient(-45deg, #00aaff 0%,#092756 100%);
+    background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%, rgba(138,114,76,0) 40%), 
+                -o-linear-gradient(top, rgba(225,0,170,0.25) 0%,rgba(67,1,94,0.4) 100%), 
+                -o-linear-gradient(-45deg, #af03bf 0%,#0062ff 100%);
+    background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), 
+                -ms-linear-gradient(top, rgba(225,0,170,0.25) 0%,rgba(67,1,94,0.4) 100%), 
+                -ms-linear-gradient(-45deg, #af03bf 0%,#0062ff 100%);
+    background: linear-gradient(to bottom, rgba(225,0,170,0.25) 0%, rgba(67,1,94,0.4) 100%), 
+                linear-gradient(135deg, #af03bf 0%,#0062ff 100%);
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px; /* Adjust height as necessary */
+}
+
+input[type="submit"] {
+    background-color: #4a77d4;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #3762bc;
+}
+
+h2 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px;
+}
+
+label {
+    color: white;
+    font-size: 18px;
+}
+
+/* result.html */
+
+h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+strong {
+    color: #FFD700; /* Gold color for the prediction result */
+}
+
+a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4a77d4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+a:hover {
+    background-color: #3a5c9b;
+}
